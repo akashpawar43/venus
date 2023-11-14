@@ -1,0 +1,124 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/Venus_logo.png" type="image/x-icon">
+    <title>Gallery Page with Filter Example</title>
+    <!-- Add Bootstrap CSS -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    <link rel="stylesheet" href="/css/gallary.css">
+    <!-- Add custom CSS for gallery -->
+    <style>
+        .flex-center {
+            display: flex;
+            justify-content: center;
+            align-items: center;
+        }
+
+        .social-icons .fab {
+            color: rgb(255, 255, 255);
+        }
+
+        .social-icons a:hover .fab {
+            /* Change to desired hover color */
+            color: #1B5E20;
+            color: black;
+            color: rgb(90, 81, 218);
+        }
+
+        @media (max-width:992px) {
+            #about_us_section .container .wid {
+                width: 100%;
+            }
+        }
+    </style>
+</head>
+
+<body>
+    {{>navbar}}
+
+
+    {{!-- hero section --}}
+    <div class="banner_section">
+        <div class="container-fluid">
+            <div class="row">
+                <div class="col-md-12">
+                    <div class="banner-section">
+                        <h1 class="text-center">Contact Us</h1>
+                        <p class="text-center">Feel free to contact us.</p>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
+
+
+    {{!-- <section id="about_us_section" style="background-color: #7CB342;"> --}}
+        <section id="about_us_section" style="background: linear-gradient(to right, #0575E6, #00F260);">
+            <div class="container text-center py-5">
+                <div class="row flex-center text-center my-5">
+                    <div class="col-md-12 col-lg-6">
+                        <h2 class="py-3" style="font-weight: 700;">Contact Information</h2>
+                        <p class="pb-1" style="font-size: 1.3rem;"><strong>Director:</strong> Salvador Rodrigues</p>
+                        <p class="pb-1" style="font-size: 1.3rem;"><strong>Address:</strong> A-203, Chandra Enclave,
+                            Rai,
+                            Near Royal School, Bhayandar (West), Thane
+                            - 401101</p>
+                        <p class="pb-1" style="font-size: 1.3rem;"><strong>Phone:</strong> +(91) 8976392353</p>
+                        <p class="pb-2" style="font-size: 1.3rem;"><strong>Email:</strong> info@venusinternationals.com
+                        </p>
+                        <div class="social-icons pb-4">
+                            <a href="https://www.facebook.com/example" target="_blank"><i
+                                    class="fab fa-facebook-f fa-lg px-1"></i></a>
+                            <a href="https://www.twitter.com/example" target="_blank"><i
+                                    class="fab fa-twitter fa-lg px-1"></i></a>
+                            <a href="https://www.linkedin.com/in/example" target="_blank"><i
+                                    class="fab fa-linkedin-in fa-lg px-1"></i></a>
+                            <a href="https://www.instagram.com/example" target="_blank"><i
+                                    class="fab fa-instagram fa-lg px-1"></i></a>
+                        </div>
+                    </div>
+                    <div class="col-md-4 col-sm-4 wid">
+                        <div class="google-map">
+                            <iframe
+                                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d60253.10724158849!2d72.7972070757095!3d19.290227031262173!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3be7b18573989d15%3A0x5c38670bcf0f29c7!2sChandra%20Enclave%20Building!5e0!3m2!1sen!2sin!4v1681368609912!5m2!1sen!2sin"
+                                width="300px" height="300px" style="border-radius:50%;" allowfullscreen=""
+                                loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+
+
+
+
+        {{>footer}}
+
+        <!-- Add jQuery and Bootstrap JS -->
+        <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@popperjs/core@2.9.1/dist/umd/popper.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+            integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+            crossorigin="anonymous"></script>
+        <script>
+            let nav_items4 = document.getElementById("i4");
+            
+
+            nav_items4.style.color = "#43A047";
+
+
+        </script>
+</body>
+
+</html>

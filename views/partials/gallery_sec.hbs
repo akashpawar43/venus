@@ -1,0 +1,24 @@
+{{!-- gallery section --}}
+<section class="gallery-container">
+    <div class="container">
+        {{!-- <div class="py-5 text-center">
+            our work
+        </div> --}}
+        <div class="row stick">
+            <div class="col-md-12 text-center filter-btn-group">
+                <button class="btn btn-green active" data-filter="all">All</button>
+                <button class="btn btn-green" data-filter="category2">Interiors</button>
+                <button class="btn btn-green" data-filter="category1">Exteriors</button>
+                {{!-- <button class="btn btn-primary" data-filter="category3">Category 3</button> --}}
+            </div>
+        </div>
+        <div class="row gallery-items">
+            {{#each gallery}}
+            <div class="col-md-4 gallery-img mb-4 hei {{this.category}}">
+                <img src="{{this.link}}" alt="Image 1" class="img-fluid">
+            </div>
+            {{/each}}
+        </div>
+    </div>
+</section>
+{{!-- //gallery section end --}}

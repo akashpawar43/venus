@@ -1,0 +1,92 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="icon" href="/images/Venus_logo.png" type="image/x-icon">
+    {{!-- <link rel="icon" href="https://img.freepik.com/premium-vector/eagle-logo-icon-design-falcon-head-vector_487414-781.jpg" type="image/x-icon"> --}}
+    <title>Venus Internationals</title>
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/css/bootstrap.min.css" rel="stylesheet"
+        integrity="sha384-EVSTQN3/azprG1Anm3QDgpJLIm9Nao0Yz1ztcQTwFspd3yD65VohhpuuCOmLASjC" crossorigin="anonymous">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.2.1/css/all.min.css"
+        integrity="sha512-MV7K8+y+gLIBoVD59lQIYicR65iaqukzvf/nwasF0nqhPay5w/9lJmVM2hMDcnK1OnMGCdVK+iQrJ7lzPJQd1w=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+    <link rel="stylesheet" href="/css/style.css">
+    <link rel="stylesheet" href="/css/media.css">
+    
+</head>
+
+<body>
+
+    {{!-- navbar section --}}
+    {{>navbar}}
+    {{!-- navbar section end --}}
+
+
+    {{!-- hero section --}}
+    {{>hero}}
+    {{!-- hero section end --}}
+
+
+    {{!-- banner section --}}
+    <section class="banner2_section py-5">
+        <div class="container media-p">
+            <div class="row row-20 row-100">
+                <div class="col-md-6 text-center height-100">
+                    <!-- right side -->
+                    <img src="/images/dis-2.jpg" class="img-fluid ban-img text-start"
+                        style=" height: 100%; display: flex; object-fit: unset;" alt="">
+                </div>
+                <div class="col-md-6 text-start height-100 py-4 pad-0">
+                    <!-- left side -->
+                    {{!-- <h3>Your Space, Your Pace</h3> --}}
+                    <h3 style="font-size: 2rem;font-weight:700;color:#4d4242 ">A place for everything.</h3>
+                    <p class="gray" >Small living may seem like a recent trend, but hundreds of great minds across
+                        history have long mused on the possibility of small living – be it in a tiny house, a container
+                        home, or even a hobbit-hole. Here are some of the greatest quotes assembled by some of the most
+                        prestigious writers, thinkers, and wordsmiths throughout history on the subject.</p>
+                    <button class="btn btn-green"><a style="text-decoration: none; color: white;"
+                            href="#display_section">Click here</a></button>
+                </div>
+            </div>
+        </div>
+    </section>
+    {{!-- banner section end --}}
+
+
+    {{!-- about section --}}
+    {{>about}}
+    {{!-- about section end --}}
+
+
+    {{!-- about work section --}}
+    {{>about_work}}
+    {{!-- about work section end --}}
+
+
+    {{!-- display images section --}}
+    {{>img_display}}
+    {{!-- display images section end --}}
+
+
+    {{!-- footer section --}}
+    {{>footer}}
+    {{!-- footer section end --}}
+
+    <script src="https://cdn.jsdelivr.net/npm/bootstrap@5.0.2/dist/js/bootstrap.bundle.min.js"
+        integrity="sha384-MrcW6ZMFYlzcLA8Nl+NtUVF0sA7MsXsP1UyJoMp4YLEuNSfAP+JcXn/tWtIaxVXM"
+        crossorigin="anonymous"></script>
+    <script src="/js/index.js"></script>
+    <script>
+        let con = document.getElementById("navbarSupportedContent")
+        let nav_items1 = document.getElementById("i1");
+
+        nav_items1.style.color = "#43A047";
+
+        
+    </script>
+</body>
+
+</html>
