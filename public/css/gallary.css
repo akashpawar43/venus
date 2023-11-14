@@ -9,7 +9,7 @@ body::-webkit-scrollbar {
 }
 
 .banner_section {
-    background: red url('../images/banner.jpg') no-repeat center;
+    background: red url('../images/banner.webp') no-repeat center;
     background-size: cover;
     position: relative;
 }
