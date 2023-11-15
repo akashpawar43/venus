@@ -281,18 +281,6 @@ body::-webkit-scrollbar {
     background-size: cover;
 }
 
-/* .btn-a{
-    display: block;
-    border: 3px solid red;
-    text-decoration: none;
-    border-radius: 2rem;
-    color: #785d5d;
-    width: 10rem;
-}
-.btn-a:hover{
-    color: white;
-    background-color: red;
-} */
 
 .btn-gal{
     border: 3px solid #3c8241;
