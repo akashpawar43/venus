@@ -40,7 +40,7 @@ body::-webkit-scrollbar {
     align-items: center;
 }
 .banner_section {
-    background: red url('../images/banner.webp') no-repeat center;
+    background: red url('/images/banner.webp') no-repeat center;
     background-size: cover;
     position: relative;
 }
@@ -168,7 +168,7 @@ footer{
 .foot-png{
     height: 100%;
     width: 10rem;
-    background: transparent url('../images/Venus_logo.png') no-repeat center center;
+    background: transparent url('/images/Venus_logo.png') no-repeat center center;
     background-size: contain;
 }
 .footer-address{
