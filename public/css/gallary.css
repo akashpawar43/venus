@@ -168,7 +168,7 @@ footer{
 .foot-png{
     height: 100%;
     width: 10rem;
-    background: transparent url('/images/Venus_logo.webp') no-repeat center center;
+    /* background: transparent url('/images/Venus_logo.webp') no-repeat center center; */
     background-size: contain;
 }
 .footer-address{
@@ -304,6 +304,8 @@ footer{
         gap: 0rem;
         max-width: 960px;
         align-items: center;
+        padding-top: 1rem;
+        padding-bottom: 1rem;
     }
     .cont6{
         width: 15rem;
@@ -336,9 +338,6 @@ footer{
     .footer-section {
         height: auto;
     }
-
-
-    
     .cont5 {
         gap: 3rem;
         height: auto;
