@@ -21,7 +21,7 @@ If you want to run the latest code from git, here's how to get started:
 
 1. Clone the code:
 
-        https://github.com/akashpawar43/venus-react.git
+        https://github.com/akashpawar43/venus.git
         cd venus-react
 
 2. Install the node-red dependencies
